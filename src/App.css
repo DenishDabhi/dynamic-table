@@ -1,0 +1,109 @@
+:root{
+    --comon-color:#344767;
+    --linear1:#37aaee;
+    --linear2:#b3ea91;
+    --error:red;
+    --linear-deg:310deg;
+    --my-background: linear-gradient(var(--linear-deg), var( --linear1),var(--linear2));
+    --close-btn: linear-gradient(107.2deg, rgb(150, 15, 15) 10.6%, rgb(247, 0, 0) 91.1%);
+  --linear-back:-webkit-linear-gradient(var(--linear-deg), var( --linear1), var(--linear2));
+    --linear-clip:  text;
+    --linear-fill-color: transparent;
+    --small:13px;
+    --mideum:20px;
+    --large:30px;
+    --extra-large:40px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.addButton{
+    background: var(--my-background);
+    color: white !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 8px 25px !important;
+}
+.addButton:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+    transition: .4s ease-in-out;
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+.set{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.forTable{
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.table-container{
+    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.1);
+}
+
+.error_msg{
+    color: var(--error);
+    font-size: var(--small);
+    padding-left: 3px;
+}
+
+.filter_button{
+    background: #fff;
+    color: rgb(52, 178, 228);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.filter_button:hover{
+    color: #D197D1;
+}
+
+.main_page{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.previus{
+    outline: none;
+    border: none;
+    background-color: burlywood;
+    padding: 5px 13px;
+    border-radius: 10px;
+}
+.next_previus_button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: end;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    cursor: pointer;
+  }
+
+  input[type="search"]{
+    outline: none !important;
+    border: none !important;
+    text-overflow: ellipsis !important;
+    width: 120px !important;
+    font-size: 12.5px !important;
+    text-overflow: ellipsis !important;
+  }

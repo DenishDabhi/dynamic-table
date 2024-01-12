@@ -1,0 +1,11 @@
+
+.custom-swal-container {
+  
+    z-index: 5000 !important;
+}
+
+.custom-swal-container button{
+  
+   width: 100px;
+}
+
